@@ -1,0 +1,9 @@
+Package: com.qn.zalowatchalert
+Name: ZaloWatchAlert
+Depends: mobilesubstrate, firmware (>= 15.0)
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Gửi thông báo đẩy lên Watch trong lúc cuộc gọi Zalo đang đổ chuông, để người dùng còn biết đang có cuộc gọi đến Zalo
+Maintainer: Qn <qnblackcat@gmail.com>
+Author: Qn <qnblackcat@gmail.com>
+Section: Tweaks

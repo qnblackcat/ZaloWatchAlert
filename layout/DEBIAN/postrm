@@ -1,0 +1,6 @@
+#!/bin/sh
+# Restart Zalo only when the tweak is removed, so the hooks are dropped. Not on upgrade.
+case "$1" in
+    remove|purge) killall Zalo 2>/dev/null || true ;;
+esac
+exit 0

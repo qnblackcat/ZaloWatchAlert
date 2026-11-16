@@ -1,0 +1,5 @@
+#!/bin/sh
+# Zalo is a regular app: kill it so it relaunches with the tweak loaded (Sileo does not
+# restart anything after install). No effect if it is not running.
+killall Zalo 2>/dev/null || true
+exit 0
